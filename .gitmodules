@@ -1,0 +1,6 @@
+[submodule "forestgenbot"]
+	path = forestgenbot
+	url = https://github.com/Jishaxe/forestgenbot
+[submodule "garblebot"]
+	path = garblebot
+	url = https://github.com/Jishaxe/garblebot

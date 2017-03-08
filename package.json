@@ -1,0 +1,24 @@
+{
+  "name": "bot-manager",
+  "version": "1.0.0",
+  "description": "Manages my bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jishaxe/bot-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jishaxe/bot-manager/issues"
+  },
+  "homepage": "https://github.com/Jishaxe/bot-manager#readme",
+  "dependencies": {
+    "coffeescript": "^1.12.4",
+    "forever-monitor": "^1.7.1"
+  }
+}

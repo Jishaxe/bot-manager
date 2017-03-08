@@ -19,8 +19,10 @@ getDirs = (rootDir) ->
 
 bots = []
 
+console.log "Looking for bots..."
+
 # Find bots here
-for dir in getDirs './'
+for dir in getDirs __dirname
   # A subdirectory is a bot if it has a .git and a package.json
   if (fs.existsSync "#{dir}/.git") and (fs.existsSync "#{dir}/package.json")
     console.log "Starting bot #{dir}"

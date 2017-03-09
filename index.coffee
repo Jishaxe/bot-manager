@@ -29,9 +29,7 @@ for dir in getDirs __dirname
     console.log "Building bot #{dir}"
 
     # Run npm install to install all the components inside the bot submodule
-    child_process.exec "npm install", {
-      cwd: dir
-    }
+    child_process.execSync "npm install", {cwd: dir}
 
     console.log "Starting bot #{dir}"
     # Use forever to call npm start in the bot directory and retry restarting 5 times before failing

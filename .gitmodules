@@ -4,3 +4,6 @@
 [submodule "garblebot"]
 	path = garblebot
 	url = https://github.com/Jishaxe/garblebot
+[submodule "sunrisegen"]
+	path = sunrisegen
+	url = https://github.com/Jishaxe/sunrisegen

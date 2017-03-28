@@ -7,3 +7,6 @@
 [submodule "sunrisegen"]
 	path = sunrisegen
 	url = https://github.com/Jishaxe/sunrisegen
+[submodule "playstvbot-discord"]
+	path = playstvbot-discord
+	url = https://github.com/Jishaxe/playstvbot-discord
